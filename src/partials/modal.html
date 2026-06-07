@@ -1,0 +1,53 @@
+<div class="backdrop" data-modal>
+  <div class="modal contact-form-wrapper">
+    <button class="modal-close" data-modal-close type="button">x</button>
+
+    <p class="contact-form-title">
+      Please use the form below to contact us. Enter your name, email, phone,
+      and message and we'll get back to you shortly.
+    </p>
+
+    <form class="contact-form">
+      <div class="contact-form-inner">
+        <input
+          class="contact-input"
+          type="text"
+          name="user_name"
+          aria-label="Name"
+          placeholder="Name"
+          required
+        />
+
+        <div class="input-wrapper">
+          <input
+            class="contact-input"
+            type="email"
+            name="user_email"
+            aria-label="Email"
+            placeholder="Email"
+            required
+          />
+          <span class="validation-icon">❌</span>
+        </div>
+
+        <input
+          class="contact-input"
+          type="tel"
+          name="user_tel"
+          aria-label="Phone"
+          placeholder="+380"
+          required
+        />
+
+        <textarea
+          class="contact-comment"
+          name="user_comment"
+          placeholder="Comment"
+          aria-label="Comment"
+        ></textarea>
+      </div>
+
+      <button class="contact-btn" type="submit">Send</button>
+    </form>
+  </div>
+</div>
