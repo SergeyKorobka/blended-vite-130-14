@@ -15,10 +15,10 @@
     />
 
     <script type="module" crossorigin src="/blended-vite-130-14/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/blended-vite-130-14/assets/index-36jzpTpA.css">
+    <link rel="stylesheet" crossorigin href="/blended-vite-130-14/assets/index-C6QxT1OA.css">
   </head>
   <body>
-    <header class="page-header" id="header">
+    <header class="page-header hidden" id="header">
   <div class="container header-container">
     <a class="header-logo" href="./index.html">watchcharm</a>
 
@@ -80,7 +80,7 @@
 
     <main>
       <!-- Loads the specified .html file -->
-      <section class="hero-section" id="hero">
+      <section class="hero-section hidden" id="hero">
   <div class="container hero-container">
     <div class="hero-top">
       <div class="hero-content">
@@ -149,20 +149,25 @@
       <div class="sale-preview-wrapper">
         <ul class="sale-preview-list">
           <li class="sale-preview-item">
-            <img src="/blended-vite-130-14/assets/sale-1-DX2wG-O3.png" alt="sale-1" />
+            <img
+              srcset="/blended-vite-130-14/assets/sale-1-DX2wG-O3.png 1x, /blended-vite-130-14/assets/sale-1-DX2wG-O3.png 2x"
+              src="/blended-vite-130-14/assets/sale-1-DX2wG-O3.png"
+              alt="sale-1"
+              width="96"
+            />
           </li>
           <li class="sale-preview-item">
-            <img src="/blended-vite-130-14/assets/sale-2-ZSREv54g.png" alt="sale-2" />
+            <img src="/blended-vite-130-14/assets/sale-2-ZSREv54g.png" alt="sale-2" width="96" />
           </li>
           <li class="sale-preview-item">
-            <img src="/blended-vite-130-14/assets/sale-3-DQSPOc5a.png" alt="sale-3" />
+            <img src="/blended-vite-130-14/assets/sale-3-DQSPOc5a.png" alt="sale-3" width="96" />
           </li>
           <li class="sale-preview-item">
-            <img src="/blended-vite-130-14/assets/sale-4-Dqibamkp.png" alt="sale-4" />
+            <img src="/blended-vite-130-14/assets/sale-4-Dqibamkp.png" alt="sale-4" width="96" />
           </li>
         </ul>
         <div class="sale-preview-main">
-          <img src="/blended-vite-130-14/assets/sale-main-DcwN442l.png" alt="sale-main" />
+          <img src="/blended-vite-130-14/assets/sale-main-DcwN442l.png" alt="sale-main" width="328" />
         </div>
       </div>
 
@@ -197,7 +202,7 @@
   </div>
 </section>
 
-      <section class="section-contact section" id="contact-us">
+      <section class="section-contact section hidden" id="contact-us">
   <div class="container">
     <h2 class="contact-title">Contact Us</h2>
     <div class="contact-inner">
@@ -265,7 +270,7 @@
 
     </main>
 
-    <footer id="footer">
+    <footer id="footer" class="hidden">
   <div class="container">
     <a href="./index.html">watchcharm</a>
     <ul>
@@ -330,7 +335,7 @@
 </footer>
 
 
-    <div class="backdrop" data-modal>
+    <div class="backdrop hidden" data-modal>
   <div class="modal contact-form-wrapper">
     <button class="modal-close" data-modal-close type="button">x</button>
 
