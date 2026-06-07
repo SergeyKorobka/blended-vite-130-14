@@ -1,0 +1,14 @@
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--main-ff);
+  font-size: 16px;
+  color: rgba(12, 12, 12, 0.7);
+  background-color: #fbfbfb;
+}
+
+.section {
+  padding: 50px 0;
+}
