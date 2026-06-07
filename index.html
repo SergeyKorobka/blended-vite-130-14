@@ -1,127 +1,388 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vanilla-app-template/favicon.svg" />
+    <link rel="icon" type="image/svg+xml" href="/blended-vite-130-14/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    <script type="module" crossorigin src="/vanilla-app-template/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/vanilla-app-template/assets/styles-DvPDDfy5.css">
+    <title>Watch charm</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css"
+      integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <script type="module" crossorigin src="/blended-vite-130-14/index.js"></script>
+    <link rel="stylesheet" crossorigin href="/blended-vite-130-14/assets/index-36jzpTpA.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
-      <a class="nav-logo" href="./index.html" aria-label="Site logo">
-        <svg class="nav-logo-icon" width="100" height="30">
-          <use href="/vanilla-app-template/assets/sprite-E8vg0sBb.svg#logo"></use>
-        </svg>
-      </a>
-      <ul class="nav-list">
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="./page-2.html">Page 2</a>
+    <header class="page-header" id="header">
+  <div class="container header-container">
+    <a class="header-logo" href="./index.html">watchcharm</a>
+
+    <nav class="header-nav">
+      <ul class="header-nav-list">
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="./index.html">Home</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link {=$highlight-curr}" href="./page-3.html">Page 3</a>
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="#about-us">About Us</a>
+        </li>
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="#catalog">Catalog</a>
+        </li>
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="#sale">Sale</a>
+        </li>
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="#reviews">Reviews</a>
+        </li>
+        <li class="header-nav-item">
+          <a class="header-nav-link" href="#contact-us">Contact Us</a>
         </li>
       </ul>
     </nav>
+
+    <ul class="header-social-list">
+      <li class="header-social-item">
+        <a
+          class="header-social-link"
+          href="https://facebook.com"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          >F</a
+        >
+      </li>
+      <li class="header-social-item">
+        <a
+          class="header-social-link"
+          href="https://instagram.com"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          >I</a
+        >
+      </li>
+      <li class="header-social-item">
+        <a
+          class="header-social-link"
+          href="https://youtube.com"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          >Y</a
+        >
+      </li>
+    </ul>
   </div>
 </header>
 
 
     <main>
       <!-- Loads the specified .html file -->
-      <section class="vite-promo">
-  <div class="container">
-    <div class="vite-promo-thumb">
-      <a
-        class="vite-promo-link"
-        href="https://vitejs.dev/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Link to Vite official website"
-        title="Vite.js  build tool"
-      >
-        <!-- Path to images as from index.html file -->
-        <img
-          class="pic"
-          src="/vanilla-app-template/assets/vite-logo-9o_aqrTe.png"
-          alt="Vite logo"
-          width="640"
-          height="640"
-        />
-      </a>
+      <section class="hero-section" id="hero">
+  <div class="container hero-container">
+    <div class="hero-top">
+      <div class="hero-content">
+        <h1 class="hero-title">
+          Welcome to our
+          <span class="hero-title-accent">collection</span> of premium watches
+        </h1>
+        <p class="hero-subtitle">
+          Our watches are not just timepieces, but also an expression of your
+          personality and lifestyle. From classic designs to modern ones, we
+          have a watch to suit every taste and occasion.
+        </p>
+      </div>
+
+      <div class="hero-right">
+        <ul class="hero-reviews-list">
+          <li class="hero-reviews-item">
+            <img
+              class="hero-reviews-img"
+              src="/blended-vite-130-14/assets/reviews-1-DRPfAmzo.jpg"
+              alt="reviews-1"
+              width="60"
+              height="60"
+            />
+          </li>
+          <li class="hero-reviews-item">
+            <img
+              class="hero-reviews-img"
+              src="/blended-vite-130-14/assets/reviews-2-BmEODjYW.jpg"
+              alt="reviews-2"
+              width="60"
+              height="60"
+            />
+          </li>
+          <li class="hero-reviews-item">
+            <img
+              class="hero-reviews-img"
+              src="/blended-vite-130-14/assets/reviews-3-nA3yjnLq.jpg"
+              alt="reviews-3"
+              width="60"
+              height="60"
+            />
+          </li>
+        </ul>
+
+        <a class="hero-scroll-down" href="#footer">Scroll down</a>
+      </div>
     </div>
-    <h1 class="main-title">
-      <span class="main-title-gradient">Vite</span>
-      Template by
-      <a
-        class="main-title-link"
-        href="https://github.com/goitacademy/vanilla-app-template"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT
-      </a>
-    </h1>
+
+    <div class="hero-main-img-thumb">
+      <img
+        class="hero-main-img"
+        src="/blended-vite-130-14/assets/hero-Ba9pOPXz.jpg"
+        alt="hero"
+        width="1150"
+        height="500"
+      />
+    </div>
   </div>
 </section>
 
-      <article class="badges">
+      <section class="section-sale section">
   <div class="container">
-    <ul class="badges-list">
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-html-inject"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          HTML Inject
-        </a>
-      </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/vite-plugin-full-reload"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Full Reload
-        </a>
-      </li>
-      <li class="badges-item">
-        <a
-          class="badges-link"
-          href="https://www.npmjs.com/package/postcss-sort-media-queries"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Sort Media Queries
-        </a>
-      </li>
-    </ul>
+    <h2 class="sale-title">Sale</h2>
+    <div class="sale-inner">
+      <div class="sale-preview-wrapper">
+        <ul class="sale-preview-list">
+          <li class="sale-preview-item">
+            <img src="/blended-vite-130-14/assets/sale-1-DX2wG-O3.png" alt="sale-1" />
+          </li>
+          <li class="sale-preview-item">
+            <img src="/blended-vite-130-14/assets/sale-2-ZSREv54g.png" alt="sale-2" />
+          </li>
+          <li class="sale-preview-item">
+            <img src="/blended-vite-130-14/assets/sale-3-DQSPOc5a.png" alt="sale-3" />
+          </li>
+          <li class="sale-preview-item">
+            <img src="/blended-vite-130-14/assets/sale-4-Dqibamkp.png" alt="sale-4" />
+          </li>
+        </ul>
+        <div class="sale-preview-main">
+          <img src="/blended-vite-130-14/assets/sale-main-DcwN442l.png" alt="sale-main" />
+        </div>
+      </div>
+
+      <div class="sale-content-wrapper">
+        <h2 class="sale-sub-title">MARQ® Commander (Gen 2) - Carbon Edition</h2>
+
+        <p class="sale-tag">Product tag: 706587</p>
+
+        <p class="sale-prices">
+          <span class="sale-new-price">€1500</span
+          ><span class="sale-old-price">€3000</span>
+        </p>
+
+        <p class="sale-description">
+          The Garmin MARQ Commander Gen 2 Carbon Edition is a modern smartwatch
+          for adventurers that takes materials and features to the next level.
+          The body of the watch is made of very durable Fused Carbon Fiber
+          material and has a precise AMOLED touch screen. The sensitive touch
+          screen is complemented by buttons that can be used in any conditions.
+        </p>
+
+        <ul class="sale-product-categories">
+          <li class="sale-product-category">Fused carbon fiber</li>
+          <li class="sale-product-category">Grade-5 Titanuim</li>
+          <li class="sale-product-category">Athlete</li>
+          <li class="sale-product-category">Golfer</li>
+          <li class="sale-product-category">Commander</li>
+          <li class="sale-product-category">Adventurer</li>
+        </ul>
+      </div>
+    </div>
   </div>
-</article>
+</section>
+
+      <section class="section-contact section" id="contact-us">
+  <div class="container">
+    <h2 class="contact-title">Contact Us</h2>
+    <div class="contact-inner">
+      <div class="contact-form-wrapper">
+        <p class="contact-form-title">
+          Please use the form below to contact us. Enter your name, email,
+          phone, and message and we'll get back to you shortly.
+        </p>
+
+        <form class="contact-form">
+          <div class="contact-form-inner">
+            <input
+              class="contact-input"
+              type="text"
+              name="user_name"
+              aria-label="Name"
+              placeholder="Name"
+              required
+            />
+
+            <div class="input-wrapper">
+              <input
+                class="contact-input"
+                type="email"
+                name="user_email"
+                aria-label="Email"
+                placeholder="Email"
+                required
+              />
+              <span class="validation-icon">❌</span>
+            </div>
+
+            <input
+              class="contact-input"
+              type="tel"
+              name="user_tel"
+              aria-label="Phone"
+              placeholder="+380"
+              required
+            />
+
+            <textarea
+              class="contact-comment"
+              name="user_comment"
+              placeholder="Comment"
+              aria-label="Comment"
+            ></textarea>
+          </div>
+
+          <button class="contact-btn" type="submit">Send</button>
+        </form>
+      </div>
+
+      <div class="contact-image-wrapper">
+        <img
+          src="/blended-vite-130-14/assets/contact-img-uocvmdwi.jpg"
+          alt="contact"
+          width="530"
+          height="556"
+        />
+      </div>
+    </div>
+  </div>
+</section>
 
     </main>
 
-    <footer class="footer">
+    <footer id="footer">
   <div class="container">
-    <p class="footer-desc">
-      Made with ✨ by
-      <a
-        class="footer-link"
-        href="https://goit.global/ua/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        GoIT team
-      </a>
+    <a href="./index.html">watchcharm</a>
+    <ul>
+      <li>
+        <a
+          href="https://facebook.com"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          >F</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://instagram.com"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          >I</a
+        >
+      </li>
+      <li>
+        <a
+          href="https://youtube.com"
+          target="_blank"
+          rel="noopener noreferrer nofollow"
+          >Y</a
+        >
+      </li>
+    </ul>
+
+    <p>
+      Have the time of your life with our watches: where high-class
+      craftsmanship meets impeccable design
     </p>
+
+    <a href="tel:+380684439426">+380 (68) 443-94-26</a>
+
+    <nav>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="#about-us">About Us</a></li>
+        <li><a href="#catalog">Catalog</a></li>
+        <li><a href="#sale">Sale</a></li>
+        <li><a href="#reviews">Reviews</a></li>
+        <li><a href="#contact-us">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <address>
+      <a
+        href="https://maps.app.goo.gl/4uxzXLoGroXd36Ty5"
+        target="_blank"
+        rel="noopener noreferrer nofollow"
+        >1678 S. Pioneer Road Salt Lake City UT 84104</a
+      >
+    </address>
+
+    <p>©2023 The Watch Spot. All rights reserved.</p>
+
+    <a href="">Terms of Service</a>
+    <a href="">Privacy Policy</a>
   </div>
 </footer>
+
+
+    <div class="backdrop" data-modal>
+  <div class="modal contact-form-wrapper">
+    <button class="modal-close" data-modal-close type="button">x</button>
+
+    <p class="contact-form-title">
+      Please use the form below to contact us. Enter your name, email, phone,
+      and message and we'll get back to you shortly.
+    </p>
+
+    <form class="contact-form">
+      <div class="contact-form-inner">
+        <input
+          class="contact-input"
+          type="text"
+          name="user_name"
+          aria-label="Name"
+          placeholder="Name"
+          required
+        />
+
+        <div class="input-wrapper">
+          <input
+            class="contact-input"
+            type="email"
+            name="user_email"
+            aria-label="Email"
+            placeholder="Email"
+            required
+          />
+          <span class="validation-icon">❌</span>
+        </div>
+
+        <input
+          class="contact-input"
+          type="tel"
+          name="user_tel"
+          aria-label="Phone"
+          placeholder="+380"
+          required
+        />
+
+        <textarea
+          class="contact-comment"
+          name="user_comment"
+          placeholder="Comment"
+          aria-label="Comment"
+        ></textarea>
+      </div>
+
+      <button class="contact-btn" type="submit">Send</button>
+    </form>
+  </div>
+</div>
 
 
   </body>
